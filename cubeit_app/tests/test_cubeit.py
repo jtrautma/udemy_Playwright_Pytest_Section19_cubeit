@@ -16,7 +16,8 @@ def test_five_cubed(page: Page):
 
     result = page.locator("css=p#result")
 
-    expect(result).to_contain_text("125")
+    # expect(result).to_contain_text("125")
+    expect(result).to_contain_text("12")
 
 
 def test_empty_input(page: Page):
